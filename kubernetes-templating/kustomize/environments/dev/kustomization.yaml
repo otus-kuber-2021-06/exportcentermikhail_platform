@@ -1,0 +1,7 @@
+bases:
+  - ../../productcatalogservice
+patches:
+  - replica-count.yaml
+commonLabels:
+        env: prod
+namePrefix: dev-
